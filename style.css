@@ -11,6 +11,19 @@ body{
   }
 
 .outer{
+  animation: coloranimation 4s ease-in 0s 10 alternate;
+}
+
+@keyframes coloranimation{
+  from{
+      background-color: #141f3b;
+  }
+  to{
+      background-color: #AE8625;
+  }
+}
+
+.outer{
     height: 500px;
     width: 900px;
     background-color: #141f3b;
